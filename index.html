@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, viewport-fit=cover">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>Instagram</title>
+</head>
+<body>
+    <div class="instagram-wrapper d-flex my-5">
+        <div class="instagram-phone text-right">
+            <img src="/img/instagram-profile.png" alt="phone">
+
+            <div class="transition" id="container">
+                <img alt="page 1" class="page-transition" src="/img/instagram-profile1.png">
+                <img alt="page 2" class="page-transition" src="/img/instagram-profile2.png">
+                <img alt="page 3" class="page-transition" src="/img/instagram-profile3.png">
+                <img alt="page 4" class="page-transition" src="/img/instagram-profile4.png">
+            </div>
+        </div>
+        
+        <div class="small-container ml-5 text-center">
+            <div class="card form-group">
+                    <div class="text-center">
+                        <img src="/img/instagram-logo.png" class="instagram-logo mt-5 mb-2 mx-5" alt="instagram-logo">
+                    </div>
+                    <div class="instagram-login group card-body mb-0">
+                        <div class="form-group mx-4">
+                            <input class="form-control bg-light px-4" type="text" id="username" aria-label="Phone number, username, or email" aria-required="true" autocapitalize="off" autocorrect="off" maxlength="75" name="username" placeholder="Phone number, username, or email">
+                        </div>
+                        <div class="form-group mx-4">
+                            <input class="form-control bg-light px-4" type="password" id="password" name="password" aria-label="Password" aria-required="true" autocapitalize="off" autocorrect="off" value="" placeholder="Password">
+                        </div>
+                    </div>
+                    <button type="button" class="btn btn-primary text-light mx-5 mt-0">Log In</button>
+
+                    <p class="orbwnline my-4 mx-5 text-secondary"><span><strong>OR</strong></span></p>
+
+                    <div class="facebook d-flex justify-content-center mt-2 mb-3">
+                        <i class="fa-brands fa-facebook-square mt-1" style="color: #4267B2;"></i>
+                        <a href="https://www.instagram.com/accounts/signup/" target="_blank" class="pl-3" style="color: #4267B2;"><strong>Log in with Facebook</strong></a>
+                    </div>
+                    <a class="text-center mb-4" href="/accounts/password/reset/" tabindex="0"><small>Forgot password?</small></a>
+            </div>
+
+            <div class="card">
+                <p class="card-body text-center my-2">Don't have an account?
+                    <a href="/accounts/emailsignup/"><strong>Sign up</strong>
+                    </a>
+                </p>
+            </div>
+
+            <div class="my-4">
+                <p class="text-center mb-3">Get the app.</p>
+                    <div class="col d-flex justify-content-center">
+                        <a href="https://apps.apple.com/app/instagram/id389801252?vt=lo" target="_blank">
+                            <img src="/img/apple button.png" class="col w-100 get-app pr-1" alt="apple-store">
+                        </a>
+                        <a href="https://play.google.com/store/apps/details?id=com.instagram.android" target="_blank">
+                            <img src="/img/google button.png" class="col w-100 get-app pl-1" alt="google-play">
+                        </a>
+                    </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+
+
+</html>
